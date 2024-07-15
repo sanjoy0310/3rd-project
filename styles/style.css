@@ -188,6 +188,13 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%) ;
 }
+/*footer*/
+.footer-titel{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 38px ;
+}
 /*Responsive media query*/
 @media screen and (max-width:576px) {
     .navbar,
@@ -206,6 +213,7 @@ main > section{
     .our-features{
         margin-left: 20px;
     }
+    
 
     .facts-container {
         justify-items: center;
@@ -224,7 +232,7 @@ main > section{
 }
 /*medium size device*/
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
     .our-features{
@@ -236,5 +244,16 @@ main > section{
     gap: 50px;
     justify-items: center;
 }
+  
+#experience-badge{
+    margin-top: 20px;
+    margin-left:20px ;
+}
+
+}
+@media screen and (min-width:992px) and (max-width:1200px){
     
+    .our-features{
+        margin-left: 95px;
+    }
 }
